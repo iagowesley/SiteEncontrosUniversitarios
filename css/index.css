@@ -160,13 +160,33 @@ nav ul li a.active::after {
   width: 100%;
 }
 
-.noticias {
+.noticias,
+.depoimento {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 5rem 0;
   background-color: var(--cor-lilas);
+}
+
+main .depoimento {
+  background-color: var(--cor-roxa);
+  color: var(--cor-branca);
+}
+
+.depoimento .conteudo-depoimento {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 50rem;
+  text-align: center;
+
+}
+
+.depoimento .conteudo-depoimento p:nth-child(2) {
+  line-height: 2.5rem;
+  font-size: 2rem;
 }
 
 .card {
@@ -226,6 +246,8 @@ nav ul li a.active::after {
 .noticias .swiper-navBtn2:hover {
   transform: translateX(-5px);
 }
+
+
 
 @media (max-width: 845px) {
   header {
@@ -365,6 +387,19 @@ nav ul li a.active::after {
 
   body {
     padding-top: 15vh;
+  }
+
+  .depoimento .conteudo-depoimento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .depoimento .conteudo-depoimento p:nth-child(2) {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    width: 20rem;
+
   }
 }
 
