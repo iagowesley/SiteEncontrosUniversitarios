@@ -209,6 +209,10 @@ main .depoimento {
   gap: 1rem;
 }
 
+.card .ler-mais a {
+  color: var(--cor-roxa);
+}
+
 .slide-container {
   max-width: 1120px;
   width: 100%;
@@ -235,16 +239,18 @@ main .depoimento {
 
 .noticias .swiper-navBtn1,
 .noticias .swiper-navBtn2 {
-  color: var(--cor-branca);
+  color: var(--cor-roxa);
   transition: .3s;
 }
 
 .noticias .swiper-navBtn1:hover {
   transform: translateX(5px);
+  color: var(--cor-branca);
 }
 
 .noticias .swiper-navBtn2:hover {
   transform: translateX(-5px);
+  color: var(--cor-branca);
 }
 
 
