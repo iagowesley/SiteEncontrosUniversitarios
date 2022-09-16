@@ -21,7 +21,7 @@ body .texto {
 
 .texto-inscricao p {
   line-height: 30px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .texto-inscricao .links {
@@ -48,12 +48,18 @@ body .texto {
 
 .texto-inscricao .links a:nth-child(1) {
   width: 18rem;
-  border-bottom: 3px solid var(--cor-preta);
+  border-bottom: 2px solid var(--cor-preta);
 }
 
 .texto-inscricao .links a:nth-child(2) {
 
-  border-bottom: 3px solid var(--cor-preta);
+  border-bottom: 2px solid var(--cor-preta);
+}
+
+.texto-inscricao .link {
+  color: var(--cor-roxa);
+  border-bottom: 1px solid var(--cor-roxa);
+  font-weight: 600;
 }
 
 
@@ -82,8 +88,5 @@ body .texto {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
-
-
 
 }
