@@ -192,6 +192,16 @@ nav ul li a.active::after {
   align-items: center;
   padding: 16px;
   width: 292px;
+  transition: 0.6s;
+}
+
+.link a:hover {
+  color: #000;
+  background-color: #4EBE85;
+  box-shadow: 4px 4px #fff;
+  cursor: pointer;
+  transition: 0.6s;
+
 }
 
 .lado-vazio {
@@ -586,7 +596,7 @@ html {
 
 .wrapper .center-line {
   position: absolute;
-  height: 115%;
+  height: 110%;
   width: 4px;
   background: #000;
   left: 50%;
