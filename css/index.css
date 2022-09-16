@@ -287,6 +287,7 @@ main .depoimento {
 .card {
   width: 18.3rem;
   background-color: var(--cor-branca);
+  border: 3px solid var(--cor-preta);
 }
 
 .card .image img {
@@ -296,12 +297,12 @@ main .depoimento {
 .card .texto {
   padding: 22px 15px;
   border-bottom: 1px solid var(--cor-preta);
+  height: 6rem;
 }
 
 .card .ler-mais {
   display: flex;
   align-items: center;
-  /*gap: 1rem;*/
 }
 
 .card .ler-mais .ler-mais-link a {
@@ -324,6 +325,7 @@ main .depoimento {
   display: flex;
   align-items: center;
   transition: .3s;
+  font-weight: 700;
 }
 
 .card .ler-mais .ler-mais-link a:hover {
@@ -331,7 +333,7 @@ main .depoimento {
 }
 
 .card .ler-mais .ler-mais-link:hover {
-  background-color: var(--cor-laranja);
+  background-color: var(--cor-verde);
 }
 
 
