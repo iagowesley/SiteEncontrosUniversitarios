@@ -47,7 +47,7 @@ body .texto {
 }
 
 .texto-inscricao .links a:nth-child(1) {
-  width: 18rem;
+  width: 20rem;
   border-bottom: 2px solid var(--cor-preta);
 }
 
