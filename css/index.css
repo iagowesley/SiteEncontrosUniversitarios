@@ -70,7 +70,7 @@ header nav ul a {
 }
 
 header .logos img {
-  width: 30%;
+  width: 100%;
 }
 
 header .logos {
@@ -385,8 +385,9 @@ main .depoimento {
     height: 15vh;
   }
 
-  header .logos img {
-    width: 35%;
+  header .logos a img {
+    width: 80%;
+    margin-left: .6rem;
   }
 
   header .logos {
