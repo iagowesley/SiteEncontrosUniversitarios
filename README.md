@@ -1,12 +1,9 @@
 <h1 align="center">
-<img src="./assets/icons/logo.svg"/>
+<img src="images/logo-encontros-universitários.svg"/>
 </h1>
 
 <p align="center"><b>Site desenvolvido para os Encontros Universitário 2022</b>
-<ul align="center">
-    <img src="https://img.shields.io/static/v1?label=Status&message=2%&labelColor=%2306121f&style=flat-square&color=%23fc0303">
-    <img src="https://img.shields.io/static/v1?label=License&message=GPL-3.0&labelColor=%2306121f&style=flat-square&color=%23e60000">
-</ul>
+
 
 ## 🎲 PROJECT DESCRIPTION
 Project architected and developed by:
