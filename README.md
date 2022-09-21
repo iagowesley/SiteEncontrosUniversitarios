@@ -22,8 +22,11 @@ Project architected and developed by:
 
 ### Front-end
 <ul>
+    <img src="https://tusharkandpal.github.io/img/html.png" height="30">
+    <img src="https://tusharkandpal.github.io/img/css.png" height="30">
+    <img src="https://tusharkandpal.github.io/img/js.png" height="30">
     <img src="https://tusharkandpal.github.io/img/bootstrap.png" height="30">
 </ul>
 
 <h1> </h1>
-<p align="center">Made with ❤ by <a href="">LearningLab</a></p>
+<p align="center">Made with ❤ by <a href="https://www.instagram.com/learninglabufc/">LearningLab</a></p>
