@@ -8,14 +8,15 @@ body .texto {
   align-items: center;
   padding-left: 5rem;
   padding-top: 2rem;
+  padding-right: 5rem;
 }
 
 .texto-inscricao {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 80rem;
-  height: auto;
+  /*width: 80rem;*/
+  /*height: auto;*/
   padding-bottom: 5rem;
 }
 
@@ -87,6 +88,11 @@ body .texto {
   .inscricao {
     padding-left: 1rem;
     padding-right: 1rem;
+    display: flex;
+  }
+
+  .inscricao .link {
+    font-size: 1.1rem;
   }
 
 }
