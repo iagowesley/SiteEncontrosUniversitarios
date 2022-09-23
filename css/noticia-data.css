@@ -1,0 +1,5 @@
+@media (max-width: 424px) {
+  body .texto h1 {
+    font-size: 1.2rem;
+  }
+}
