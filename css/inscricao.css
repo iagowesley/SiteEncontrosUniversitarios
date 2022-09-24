@@ -82,13 +82,23 @@ body .texto h1 {
   font-size: 1rem;
 }
 
+body .inscricao .texto-inscricao ul {
+  display: flex;
+  gap: .5rem;
+  flex-direction: column;
+}
+
 body .inscricao .texto-inscricao ul li {
   list-style: outside;
   margin-left: 1rem;
+  font-size: 1.3rem;
 }
 
-.inscricao .texto-inscricao ul li {
-  font-size: 1.3rem;
+@media (max-width: 845px) {
+  .texto h1 {
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+  }
 }
 
 @media (max-width: 560px) {

@@ -297,7 +297,7 @@ main .depoimento {
 .card .texto {
   padding: 22px 15px;
   border-bottom: 1px solid var(--cor-preta);
-  height: 6rem;
+  height: 9rem;
 }
 
 .card .ler-mais {
