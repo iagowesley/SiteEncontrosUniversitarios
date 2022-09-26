@@ -409,11 +409,6 @@ main .depoimento {
     cursor: pointer;
   }
 
-  body,
-  html {
-    overflow-x: hidden;
-  }
-
   .nav-list {
     width: 100%;
     position: absolute;
