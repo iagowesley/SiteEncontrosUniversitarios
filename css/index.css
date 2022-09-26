@@ -70,7 +70,7 @@ header nav ul a {
 }
 
 header .logos img {
-  width: 100%;
+  width: 90%;
 }
 
 header .logos {
@@ -78,7 +78,8 @@ header .logos {
   background-color: var(--cor-roxa);
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  text-align: center;
   align-items: center;
 }
 
