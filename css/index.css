@@ -111,7 +111,8 @@ header nav {
   display: none;
   background-color: white;
   width: 9.7rem;
-  height: 8rem;
+  height: 11.3rem;
+  text-align: center;
 }
 
 .menu-edicoes:hover ul,
