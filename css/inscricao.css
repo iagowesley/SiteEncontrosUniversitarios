@@ -96,7 +96,7 @@ body .inscricao .texto-inscricao ul li {
 
 @media (max-width: 845px) {
   .texto h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-bottom: .5rem;
   }
 }
@@ -138,6 +138,14 @@ body .inscricao .texto-inscricao ul li {
 
   .inscricao .texto-inscricao .link {
     font-size: 1rem;
+  }
+
+  .texto {
+    height: 8rem;
+  }
+
+  body main section .quadrado {
+    height: 8rem;
   }
 
 }
