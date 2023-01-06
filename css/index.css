@@ -316,6 +316,15 @@ main .depoimento {
   font-size: 1.2rem;
 }
 
+.depoimento ul{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  text-align: left;
+  margin-left: 1rem;
+
+}
+
 .card {
   width: 18.3rem;
   background-color: var(--cor-branca);
@@ -410,27 +419,15 @@ main .depoimento {
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  gap: 2rem;
+  gap: 3rem;
   flex-direction: column;
-
+  
 }
 
 .encerramento h2{
   position: relative;
   color: var(--cor-branca);
 }
-
-.encerramento .imagem{
-  max-width: 35rem;
-  max-height: 35rem
-}
-
-.encerramento .imagem img{
-  width: 100%;
-  object-fit: cover;
-  border-radius: .5rem;
-}
-
 
 @media (max-width: 912px) {
   header {
